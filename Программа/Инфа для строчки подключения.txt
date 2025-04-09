@@ -1,0 +1,9 @@
+Локально private readonly string connectionString = "Server=localhost;Database=YourDatabaseName;Integrated Security=True;";
+01:00
+
+
+Сервер private readonly string connectionString = "Server=localhost;Database=YourDatabaseName;User Id=YourUsername;Password=YourPassword;";
+01:00
+
+
+Удаленный private readonly string connectionString = "Server=YourServerAddress;Database=YourDatabaseName;User Id=YourUsername;Password=YourPassword;";
